@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SeeMyCertificatesActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@drawable/buttonbg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:text="@string/cisco_networking_academy"
+        android:onClick="c1"
+        android:id="@+id/c1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonbg"
+        android:layout_below="@+id/c1"
+        android:padding="5dp"
+        android:text="@string/digital_marketing_by_great_learning"
+        android:layout_centerHorizontal="true"
+        android:onClick="c2"
+        android:id="@+id/c2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/buttonbg"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/it_essential_by_cisco_networking_academy"
+        android:onClick="c3"
+        android:layout_below="@+id/c2"
+        android:id="@+id/c3"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/buttonbg"
+
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:layout_below="@id/c3"
+        android:text="@string/_3d_printing_by_hp_life"
+        android:onClick="c4"
+        android:id="@+id/c4"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@id/c4"
+        android:textColor="@color/white"
+        android:background="@drawable/buttonbg"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:text="@string/raspberry_pi_and_python_by_cisco_thinkqbator"
+        android:onClick="c5"
+        android:layout_marginTop="20dp"
+        android:id="@+id/c5"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/c5"
+        android:textColor="@color/white"
+        android:background="@drawable/buttonbg"
+        android:padding="5dp"
+        android:onClick="c6"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/cad_and_3d_printing_by_cisco_thinkqbator"
+        android:id="@+id/c6"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/c6"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:onClick="c7"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonbg"
+        android:padding="5dp"
+        android:text="@string/smart_assistant_development_by_cisco_thinkqbator"
+        android:id="@+id/c7"/>
+
+</RelativeLayout>

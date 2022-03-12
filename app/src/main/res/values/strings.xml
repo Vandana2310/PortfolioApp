@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Portfolio App</string>
+    <string name="vandana_kumari">Vandana Kumari</string>
+    <string name="fact">I am highly enthusiastic for learning new technology and love to explore the world of technology.</string>
+    <string name="skills">Skills</string>
+    <string name="my_skills">My Skills</string>
+    <string name="apache_netbeans">Apache NetBeans</string>
+    <string name="intellij_idea">Intellij Idea</string>
+    <string name="visual_studio_code">Visual Studio Code</string>
+    <string name="android_studio">Android Studio</string>
+    <string name="worked_on_ides">Worked on IDEs</string>
+    <string name="firebase">Firebase</string>
+    <string name="mysql">Mysql</string>
+    <string name="databases_known">DataBases Known</string>
+    <string name="c">C++</string>
+    <string name="xml">XML</string>
+    <string name="css">CSS</string>
+    <string name="html">HTMl</string>
+    <string name="php">PHP</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="java">Java</string>
+    <string name="language_known">Language Known</string>
+    <string name="android_developer">Android Developer</string>
+    <string name="connect_with_me">Connect with me</string>
+    <string name="view_more">View More</string>
+    <string name="exit">Exit</string>
+    <string name="share">Share</string>
+    <string name="language_known_and_databases_known">language Known and Databases Known</string>
+    <string name="fact2">I am very much dedicated and punctual towards the works assigned to me.</string>
+    <string name="my_resume">My Resume</string>
+    <string name="view_pdf">View PDF</string>
+    <string name="digital_marketing_by_great_learning">Digital Marketing By Great Learning</string>
+    <string name="cisco_networking_academy">Cisco Networking Academy</string>
+    <string name="it_essential_by_cisco_networking_academy">IT Essential by Cisco Networking Academy</string>
+    <string name="_3d_printing_by_hp_life">3D printing By Hp Life</string>
+    <string name="raspberry_pi_and_python_by_cisco_thinkqbator">Raspberry Pi and Python by Cisco ThinkQbator</string>
+    <string name="cad_and_3d_printing_by_cisco_thinkqbator">CAD and 3D printing by Cisco ThinkQbator</string>
+    <string name="smart_assistant_development_by_cisco_thinkqbator">Smart Assistant Development by Cisco ThinkQbator</string>
+    <string name="see_my_certificates">See My Certificates</string>
+
+</resources>

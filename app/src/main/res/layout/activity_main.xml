@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        app:cardCornerRadius="100dp">
+        <!-- add a Image image.png in your Drawable folder -->
+        <ImageView
+            android:id="@+id/imgvndu"
+            android:onClick="send"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/van" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vandana_kumari"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/android_developer"
+        android:textSize="20sp"
+        android:textColor="@color/purple_200"
+        android:layout_gravity="center"
+        android:layout_marginTop="-5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="128dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-5dp"
+        android:lines="4"
+        android:padding="10dp"
+        android:layout_marginVertical="10dp"
+        android:text="@string/fact"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:lines="4"
+        android:padding="10dp"
+        android:layout_marginVertical="10dp"
+        android:text="@string/fact2"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+
+    <Button
+        android:id="@+id/btnSkills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:background="@drawable/buttonbg"
+        android:textColor="@color/white"
+        android:text="See My Skills"/>
+
+    <Button
+        android:id="@+id/btnCerti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:background="@drawable/buttonbg"
+        android:textColor="@color/white"
+        android:text="@string/see_my_certificates"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/worked_on_ides"
+        android:layout_margin="10dp"
+        android:textAllCaps="true"
+        android:textStyle="bold|italic"
+        android:textSize="22sp"
+        android:textColor="@color/text_color"
+        android:layout_gravity="center"
+        android:padding="2dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/android_studio"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:padding="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/visual_studio_code"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:padding="2dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intellij_idea"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:padding="2dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/apache_netbeans"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:padding="2dp"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/connect_with_me"
+    android:textSize="22sp"
+    android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        android:layout_margin="10dp"
+    android:layout_gravity="center"
+    android:padding="2dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+      <ImageView
+       android:layout_width="68dp"
+       android:layout_height="68dp"
+       android:src="@drawable/gmail"
+          android:padding="10dp"
+          android:onClick="email"/>
+
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:src="@drawable/github"
+            android:padding="10dp"
+            android:onClick="github"/>
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:src="@drawable/leetcode"
+            android:padding="10dp"
+            android:onClick="leetcode"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:src="@drawable/linkedin1"
+            android:padding="10dp"
+            android:onClick="linkedin"
+            />
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:padding="10dp"
+            android:src="@drawable/twitter"
+            android:onClick="twitter"/>
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:padding="10dp"
+            android:src="@drawable/discord"
+            android:onClick="discord"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+</ScrollView>
